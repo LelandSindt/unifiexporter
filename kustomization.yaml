@@ -1,0 +1,11 @@
+namespace: unifi 
+
+images:
+- name: jessestuart/unifi_exporter
+  newTag: v0.4.0 
+
+resources:
+- manifest.yaml
+
+generators:
+- secrets.yaml

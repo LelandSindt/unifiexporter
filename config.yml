@@ -1,0 +1,22 @@
+listen:
+    address: ENC[AES256_GCM,data:4zUDlEc=,iv:k+W8bk1LmNLcr0zok02bOZ8OKq0GklMzmPeZ7paFi3Y=,tag:zTRsRmV962A8Ex6qkLd9Dg==,type:str]
+    metricspath: ENC[AES256_GCM,data:DYW2hEBhgN0=,iv:75qGUK00RzeGG5wmKXBWAnGUF+Ot28Il/Sz9yg7Kprs=,tag:fjaz7QPbB71N8mlUn4IODg==,type:str]
+unifi:
+    address: ENC[AES256_GCM,data:7pmDTojxlCAJkwsZU/h+fL434XjG2GfXQN0=,iv:kKsoptWDMUIl2FyYDudKImKnQSlE0zJscikxl9qKt20=,tag:SOQ+OAKwtCIN5opapxuA5g==,type:str]
+    username: ENC[AES256_GCM,data:a4CNt0pq,iv:K9ImtYkgQ8V9Qpio8I0A0xJCRLk/qgoxyVozgqHdZ8E=,tag:iz0iDKc0QNXicdblxay/Vg==,type:str]
+    password: ENC[AES256_GCM,data:ZDIflftU+T9X+Q5c,iv:wKlns6OYYNS4pWkq4ZDt6/OUh6kZlomTDiL2r8+63is=,tag:MM4C2eeDw+2yQ+tZR/VZqA==,type:str]
+    site: ENC[AES256_GCM,data:eySx1UCDKw==,iv:Fc1jlIB9srJSKDCBE9StIUUH9YU48pjdEv5kZkNESnU=,tag:bM+XYi1TK5DuIsIz0s0yNw==,type:str]
+    insecure: ENC[AES256_GCM,data:pgwFPg==,iv:+1485NO2Ceb3GOdZfxSieCNcvJFMLAOng3yc+CzJc7o=,tag:ORXgj27qcqoTSZvoWZ1eRg==,type:bool]
+    timeout: ENC[AES256_GCM,data:5pY=,iv:vE5ihX8XiHx482kBizSQujtFeT1gcPO2OzlJ9+0Pjqk=,tag:dtpWNNO3B63gLXoLH9oS+g==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+    -   resource_id: projects/deft-epigram-262002/locations/global/keyRings/sops/cryptoKeys/sops-key
+        created_at: '2020-03-31T21:31:58Z'
+        enc: CiQAXK0pKhVxb623QTFBvdDYQqq8QbI9FyLdrf9KBL9/136GL9cSSQAZIbLBRZuPBRl0QpPt3PXrYBhpvByDZoQPjQCYina3v5VpTPbN46OHI2/CnyMHIF+0liqFSYEXiCP9fomIls7Ryo7BN7k1GUQ=
+    azure_kv: []
+    lastmodified: '2020-04-01T02:04:33Z'
+    mac: ENC[AES256_GCM,data:R186l9S1NrhDLqA93JamW7aJZx9c318FmY4yPnDhZH60EdjXrhWsJPqVTYks7yT48yLL7sJXzoW6HyONkASZbkaNVZQ49vk8yfMw/WoYeCoRfh05GREYHPQhkJwU3BF03QjpX4zaWLZhdMLwD1iVwHgb5ck5J0xiDuLITq7fuhI=,iv:P1KQWs+7x9FnDFFpAHkEYwH6uQhp6Mx3r1VrsufageI=,tag:OftDpwbsz6duoodS/Czeiw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.5.0
